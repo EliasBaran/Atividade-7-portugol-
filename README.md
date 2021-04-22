@@ -19,3 +19,23 @@ programa {
 		 
 	}
 }
+
+
+
+Exercicio 3
+
+programa {
+	funcao inicio() {
+		
+		inteiro N[4]
+		inteiro Med
+		
+		para (inteiro i = 0; i < 4; i++) {leia (N[i])}
+		
+		Med =  N[0] + N[1] + N[2] + N[3]
+		Med = Med / 4
+		
+		escreva ("Sua media foi de ", Med, " pontos")
+		
+	}
+}
