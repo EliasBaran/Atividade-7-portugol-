@@ -40,3 +40,18 @@ programa { funcao inicio() {
 }
 }
 
+
+
+Exercicio 4
+
+programa { 
+    inclua biblioteca Util --> U
+	funcao inicio() {
+		
+		inteiro num
+		
+		escreva ("gerando numeros...\n")
+		para (inteiro i = 0; i < 51; i++) {num = U.sorteia (1,50), escreva (num + "\n")} 
+		
+	}
+}
