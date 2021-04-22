@@ -24,18 +24,19 @@ programa {
 
 Exercicio 3
 
-programa {
-	funcao inicio() {
-		
-		inteiro N[4]
-		inteiro Med
-		
-		para (inteiro i = 0; i < 4; i++) {leia (N[i])}
-		
-		Med =  N[0] + N[1] + N[2] + N[3]
-		Med = Med / 4
-		
-		escreva ("Sua media foi de ", Med, " pontos")
-		
-	}
+programa { funcao inicio() {
+
+	inteiro N[4]
+	inteiro Med
+	
+	para (inteiro i = 0; i < 4; i++) {leia (N[i])}
+	
+	Med =  N[0] + N[1] + N[2] + N[3]
+	Med = Med / 4
+	
+	escreva ("sua primeira nota foi ", N[0], ", sua segunda foi ", N[1], ", sua terceira foi ", N[2], " e sua quarta foi ", N[3])
+	escreva (", portanto sua media foi de ", Med, " pontos")
+	
 }
+}
+
