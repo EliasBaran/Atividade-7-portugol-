@@ -131,3 +131,27 @@ programa {
 	}
 }
 
+
+Exercicio 8
+programa {
+	funcao inicio() {
+	    
+		inteiro x = 0
+		inteiro Num[3][3] = { {72, 81, 9},
+		                      {10, 29, 0},
+		                      {16, 23, 4}  }
+		
+		para (inteiro i = 0; i < 3; i++) { 
+		    se (i < 3) {escreva (Num[x][i], " ")}}
+		    escreva ("\n") x++
+		    
+	    para (inteiro i = 0; i < 3; i++) { 
+		    se (i < 3) {escreva (Num[x][i], " ")}}
+		    escreva ("\n") x++
+		    
+		para (inteiro i = 0; i < 3; i++) { 
+		    se (i < 3) {escreva (Num[x][i], " ")}}
+		    
+	}
+}
+
