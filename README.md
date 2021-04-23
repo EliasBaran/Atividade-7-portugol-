@@ -228,4 +228,43 @@ programa {
 	}
 }
 
+Exercicio 12
+
+programa {
+	funcao inicio() {
+		
+		//descubra a cor da sua alma de acordo com o mes em que nasceu
+		
+		inteiro Data
+		
+		escreva ("em que mes voce nasceu? ")
+		leia (Data)
+		
+	        se (Data == 1) {escreva ("a cor da sua alma é: roxo")}
+		
+		    senao se (Data == 2) {escreva ("a cor da sua alma é: rosa")}
+		
+		    senao se (Data == 3) {escreva ("a cor da sua alma é: branca")}
+		
+		    senao se (Data == 4) {escreva ("a cor da sua alma é: dourada")}
+		 
+		    senao se (Data == 5) {escreva ("a cor da sua alma é: azul")}
+		
+		    senao se (Data == 6) {escreva ("a cor da sua alma é: preta")}
+		
+		    senao se (Data == 7) {escreva ("a cor da sua alma é: amarela")}
+		
+		    senao se (Data == 8) {escreva ("a cor da sua alma é: prata")}
+		
+		    senao se (Data == 9) {escreva ("a cor da sua alma é: vermelha")}
+		
+		    senao se (Data == 10) {escreva ("a cor da sua alma é: verde")}
+		
+		    senao se (Data == 11) {escreva ("a cor da sua alma é: bronze")}
+		
+		    senao se (Data == 12) {escreva ("a cor da sua alma é: cinza")}
+		   
+	}
+}
+
 
