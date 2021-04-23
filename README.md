@@ -207,3 +207,25 @@ programa {
 }
 
 
+
+Exercicio 11
+
+programa {
+	funcao inicio() {
+		
+		cadeia Alvo = ("Wally")
+		cadeia Nomes[3][3] = { {"Clayton", "Jennifer", "Afonso"},
+		                       {"Marilette", "Wally", "Anderson"},
+		                       {"Jairton", "Whindersson", "Elias"} }
+		                       
+		 
+		     para (inteiro y = 0; y < 3; y++) {
+		     para (inteiro x = 0; x < 3; x++) {escreva ("Wally nao esta aqui... \n")
+
+
+		     se (Nomes[y][x] == Alvo) {escreva ("Wally encontrado na linha ", y, " coluna ", x, "\n")}}}
+		     
+	}
+}
+
+
