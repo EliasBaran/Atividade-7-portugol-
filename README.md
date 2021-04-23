@@ -82,13 +82,12 @@ programa {
 		
 		inteiro Nale[30]
 		inteiro N
-		inteiro Con 
+		inteiro Con = 0
 		
 		para (inteiro i = 0; i < 30; i++) {Nale[i] = sorteia (1, 15)}
 		
 		escreva ("informe o numero para busca: ")
 		leia(N)
-		Con = 0
 		limpa()
 		
 		para (inteiro y = 0; y < 30; y++) {
