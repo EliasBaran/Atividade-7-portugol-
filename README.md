@@ -98,3 +98,36 @@ programa {
 		
 	}
 }
+
+
+
+Exercicio 7
+
+programa {
+	funcao inicio() {
+		
+		inteiro listadeimpares[5]
+		inteiro listadepares[5]
+		inteiro ordem[10]
+		inteiro N
+		
+		para (inteiro i = 0; i < 5; i++) {escreva ("informe um numero impar: ") leia(N)
+		  se (N % 2 == 1) {listadeimpares[i] = N}
+		  senao {escreva ("\nnumero não corresponde as expectativas \n") i--}}
+		
+		limpa() 
+		
+	    para (inteiro y = 0; y < 5; y++) {escreva ("informe um numero par: ") leia(N)
+	      se (N % 2 == 0) {listadepares[y] = N}
+	      senao {escreva ("\nnumero não corresponde com as expecatativas \n") y--}}
+	      
+	    limpa()
+	    N = 0
+	    
+	    para (inteiro x = 0; x < 10; x++) {ordem[x] = listadeimpares[N] x++ ordem[x] = listadepares[N] N++}
+	    
+	    para (inteiro z = 0; z < 10; z++) {escreva (ordem[z], " - ")}
+		
+	}
+}
+
