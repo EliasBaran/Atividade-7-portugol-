@@ -72,3 +72,30 @@ programa {
 		
 	}
 }
+
+
+
+Exercicio 6
+
+programa {
+	funcao inicio() {
+		
+		inteiro Nale[30]
+		inteiro N
+		inteiro Con 
+		
+		para (inteiro i = 0; i < 30; i++) {Nale[i] = sorteia (1, 15)}
+		
+		escreva ("informe o numero para busca: ")
+		leia(N)
+		Con = 0
+		limpa()
+		
+		para (inteiro y = 0; y < 30; y++) {
+		    se (Nale[y] == N) {escreva ("numero encontrado na posicão: ", y, "\n")}
+		    senao {Con++}}
+		    
+		escreva ("seu numero apareceu: ", 30 - Con, " vezes")
+		
+	}
+}
