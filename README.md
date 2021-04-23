@@ -178,3 +178,32 @@ programa {
 	}
 }
 
+
+
+Exercicio 10
+
+programa {
+	funcao inicio() {
+		
+		inteiro N[3][5]
+		inteiro Par[3][5]
+		
+		para (inteiro y = 0; y < 3; y++) {
+		    para (inteiro x = 0; x < 5; x++) { 
+		         escreva ("informe um numero: ")
+		         leia (N[y][x])
+		        
+		    se (N[y][x] % 2 == 0) {Par[y][x] = N[y][x]}}}
+		    
+		limpa()
+		    
+	    para (inteiro y = 0; y < 3; y++) {
+		    para (inteiro x = 0; x < 5; x++) {
+		         escreva (Par[y][x])
+		    
+		    se (Par[y][x] != 0) {escreva (" é par e foi encontrado na linha ", y, " posicao ", x, "\n")}}}
+
+	}
+}
+
+
