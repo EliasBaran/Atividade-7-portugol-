@@ -55,3 +55,20 @@ programa {
 		
 	}
 }
+
+
+
+Exercicio 5
+
+programa {
+	funcao inicio() {
+		
+		inteiro N[10]
+		
+		para (inteiro i = 0; i < 10; i++) {escreva ("informe um numero: ") leia (N[i])}
+		
+		para (inteiro y = 0; y < 10; y++) {
+		    se (N[y] % 2 == 0) escreva ("o numero ", N[y], " na posicão ", y, " é par \n")}
+		
+	}
+}
