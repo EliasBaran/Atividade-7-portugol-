@@ -155,3 +155,26 @@ programa {
 	}
 }
 
+
+
+Exercicio 9
+
+programa {
+	funcao inicio() {
+	    
+	    inteiro S = 0
+		inteiro N[3][3] = { {72, 81, 9},
+		                    {10, 29, 0},
+		                    {16, 23, 4}  }
+		
+		para (inteiro y = 0; y < 3; y++) {
+		    
+		    para (inteiro x = 0; x < 3; x++){ 
+		        
+		        S = S + N[y][x]}}
+		        
+		 escreva ("o valor total foi de: ", S)
+		
+	}
+}
+
